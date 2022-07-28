@@ -15,9 +15,9 @@ function itemPrice(item){
                 return "$10"
                 case tablet:
                     return "$250"
-                    case case:
+                    case 1:
                         return "$25"
-                        case router:
+                        case router :
                             return "$100"
     }
     console.log(itemPrice)
