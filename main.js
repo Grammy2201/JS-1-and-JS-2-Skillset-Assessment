@@ -9,15 +9,15 @@ console.log(totalBasketballScore)
 
 function itemPrice(item){
     switch(item) {
-        case 1:
+        case computer:
             return "$500"
-            case 2:
+            case mouse:
                 return "$10"
-                case 3:
+                case tablet:
                     return "$250"
-                    case 4:
+                    case case:
                         return "$25"
-                        case 5:
+                        case router:
                             return "$100"
     }
     console.log(itemPrice)
@@ -26,6 +26,17 @@ function itemPrice(item){
 
 function randomRestaurant(numOfRestaurants){
     const randomRestaurantList=
-    ["Applebees", "PaneraBread", "Popeyes", "Chopt", "Chick-fil-A", "Cheescake Factory", "Five Guys" ];
+    ["Applebees", "Panera Bread", "Popeyes", "Chopt", "Chick-fil-A", "Cheescake Factory", "Five Guys" ];
     }
     return "randomRestaurantList"
+
+
+    function isLeapYear (num) {
+        if(num % 400 === 0)
+            console.log("Even")
+        else
+            console.log("Odd")
+    }
+    const random = Math.floor(Math.random() * (400) + 1) //(max - min + 1) + min
+    console.log(random)
+
